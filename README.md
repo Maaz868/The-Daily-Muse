@@ -17,7 +17,7 @@ The Daily Muse is a React-based blogging platform designed to empower bloggers b
 
 ## Components
 
-![Components Page](DailyMuse1.PNG)
+![Components Page](DailyMuse1.png)
 
 📚 User authentication for secure access. <br/>
 📚 Intuitive navigation and user interface. <br/>
@@ -29,7 +29,7 @@ The Daily Muse is a React-based blogging platform designed to empower bloggers b
 
 ## Pages
 
-![Pages](DailyMuse2.PNG)
+![Pages](DailyMuse2.png)
 
 📚 Home as landing page after sign in. <br/>
 📚 Blog to view each individual one. <br/>
