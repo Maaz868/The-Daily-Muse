@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# The Daily Muse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Daily Muse is a React-based blogging platform designed to empower bloggers by providing a supportive and inclusive environment. Our mission is to foster a sense of belonging, creativity, and growth within our community. The platform features user authentication, intuitive navigation, and allows users to create, edit, and delete blog posts with updates managed by a JSON-server database. Key components include blog cards, a welcome page slider, headers, and footers. Using React hooks like useState and useEffect, it ensures a seamless, user-friendly experience that amplifies bloggers' voices.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+![Main Blog Page](blog1.PNG)
 
-### `npm start`
+**_Built using React, JSON-server, and various web technologies._**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👉 Provide a dynamic and interactive platform for blogging. <br/>
+👉 Enable users to create, edit, and delete blog posts. <br/>
+👉 Offer a welcoming and supportive environment for bloggers. <br/>
+👉 Ensure a seamless and user-friendly experience. <br/>
 
-### `npm test`
+## Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Components Page](DailyMuse1.PNG)
 
-### `npm run build`
+📚 User authentication for secure access. <br/>
+📚 Intuitive navigation and user interface. <br/>
+📚 Blog cards to display individual blog posts. <br/>
+📚 Welcome page slider for highlighting featured content. <br/>
+📚 CRUD (Create, Read, Update, Delete) operations for blog posts. <br/>
+📚 State management using React hooks (useState, useEffect). <br/>
+📚 JSON-server for managing and storing blog data. <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Pages](DailyMuse2.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📚 Home as landing page after sign in. <br/>
+📚 Blog to view each individual one. <br/>
+📚 Add blog to submit a new one. <br/>
+📚 Feedback to get user feedback. <br/>
+📚 About to show our mission. <br/>
+📚 Sign in to allow registered user to login. <br/>
+📚 Sign up to create a new user. <br/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Build and Run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/daily-muse.git
+   cd daily-muse
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+5. **Set up JSON-server:**
+   ```bash
+   npm install -g json-server
+   json-server --watch db.json --port 5000
+   ```
+7. **Start the React Application:**
+   ```bash
+   npm start
+   ```
+9. **Access the Application:**  
+   Navigate to http://localhost:3000/ in a browser to visit the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
+1. **React:** For frontend development and component-based architecture.
+1. **JSON-server:** For managing and storing blog data.
+1. **HTML/CSS/JavaScript:** For frontend development and UI/UX design.
+1. **React Router:** For client-side routing and navigation.
+1. **React Hooks:** For state management and side effects handling.
+1. **Git:** For version control.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+NOTE: PLEASE LET ME KNOW IF YOU DISCOVERED ANY BUG OR YOU HAVE ANY SUGGESTIONS
